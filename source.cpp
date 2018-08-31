@@ -16,7 +16,7 @@ void upper(char str[]) {
 		if( str[i] >= 'a' && str[i] <= 'z')
 		{
 			str[i] += 'A' - 'a';
-		
+            /// why are there spaces here?
 		}
 	}
 }
